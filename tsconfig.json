@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": ["es2016", "dom", "esnext.asynciterable"],
+        "jsx": "preserve",
+        "allowJs": true,
+        "checkJs": false,
+        "sourceMap": true,
+        "noEmit": true,
+        "removeComments": true,
+
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": ["node_modules"]
+}

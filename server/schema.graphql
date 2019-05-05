@@ -1,0 +1,14 @@
+type Query {
+    person(id: ID!): Person
+}
+
+type Person {
+    name: String!
+    gender: String!
+    mass: String!
+    hairColor: String!
+    skinColor: String!
+    eyeColor: String!
+    birthYear: String!
+    showAds: Boolean!
+}

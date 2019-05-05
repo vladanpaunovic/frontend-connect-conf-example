@@ -1,0 +1,6 @@
+{
+    "execMap": {
+        "ts": "ts-node --files --project tsconfig.json"
+    },
+    "watch": ["server", "graphql"]
+}

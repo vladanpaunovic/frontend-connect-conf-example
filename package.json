@@ -1,0 +1,22 @@
+{
+    "name": "frontend-conference-example",
+    "version": "1.0.0",
+    "description": "Frontend connect conference example",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon index.ts"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "graphql": "^14.2.1",
+        "graphql-yoga": "^1.17.4",
+        "typescript": "^3.4.5"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/register": "^7.4.4",
+        "ts-node": "^8.1.0"
+    }
+}
