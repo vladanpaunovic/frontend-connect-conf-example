@@ -2,6 +2,11 @@ query Person($id: ID!) {
     person(id: $id) {
         name
         gender
+        mass
+        hairColor
+        skinColor
+        eyeColor
+        birthYear
         showAds
     }
 }
